@@ -6,10 +6,11 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sWater</sprite>
-    <sprite>sprites\sStreet1</sprite>
     <sprite>sprites\sGrass1</sprite>
+    <sprite>sprites\sStreet1</sprite>
+    <sprite>sprites\sWater</sprite>
     <sprite>sprites\spr_car_PH</sprite>
+    <sprite>sprites\spr_car_fast_PH</sprite>
     <sprite>sprites\Bear</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -22,6 +23,7 @@
     <object>objects\oStreet1</object>
     <object>objects\oGrass1</object>
     <object>objects\obj_car</object>
+    <object>objects\obj_car_fast</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Tutorial</room>
