@@ -9,6 +9,7 @@
     <sprite>sprites\sGrass1</sprite>
     <sprite>sprites\sStreet1</sprite>
     <sprite>sprites\sWater</sprite>
+    <sprite>sprites\sIntroText</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,8 +17,11 @@
     <object>objects\oGrass1</object>
     <object>objects\oStreet1</object>
     <object>objects\oWater1</object>
+    <object>objects\oText1</object>
+    <object>objects\oIntroText</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\textRoom</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Level1</room>
   </rooms>
