@@ -47,8 +47,8 @@
     <object>objects\oWall</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Tutorial</room>
     <room>rooms\MainMenu</room>
+    <room>rooms\Tutorial</room>
     <room>rooms\Level3</room>
   </rooms>
   <help>

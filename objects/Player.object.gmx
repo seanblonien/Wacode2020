@@ -126,7 +126,7 @@
             <kind>1</kind>
             <string>if !place_meeting(x, y-10, oWall)
 {
-    vspeed = -10;
+    vspeed = -7.5;
 }
 </string>
           </argument>
@@ -152,7 +152,7 @@
             <kind>1</kind>
             <string>if !place_meeting(x - 10, y, oWall)
 {
-    hspeed = -10;
+    hspeed = -7.5;
 }
 </string>
           </argument>
