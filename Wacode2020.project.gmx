@@ -6,18 +6,26 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\sWater</sprite>
+    <sprite>sprites\sStreet1</sprite>
+    <sprite>sprites\sGrass1</sprite>
     <sprite>sprites\spr_car_PH</sprite>
-  </sprites>
-  <backgrounds name="background">
-    <background>background\bg_test</background>
-  </backgrounds>
+    </sprites>
   <paths name="paths"/>
-  <objects name="objects">
+   <objects name="objects">
+    <object>objects\Cam0</object>
+    <object>objects\Trash</object>
+    <object>objects\Player</object>
+    <object>objects\oWater1</object>
+    <object>objects\oStreet1</object>
+    <object>objects\oGrass1</object>
     <object>objects\obj_car</object>
-  </objects>
+  </objects>  
   <rooms name="rooms">
     <room>rooms\rm_test01</room>
+    <room>rooms\room0</room>
   </rooms>
+ 
   <help>
     <rtf>help.rtf</rtf>
   </help>
