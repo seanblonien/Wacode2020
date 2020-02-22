@@ -20,6 +20,10 @@
     <sprite>sprites\trashSoda</sprite>
     <sprite>sprites\trashAppleCore</sprite>
     <sprite>sprites\trashFishBones</sprite>
+    <sprite>sprites\edgeCP</sprite>
+    <sprite>sprites\road</sprite>
+    <sprite>sprites\sideRoad</sprite>
+    <sprite>sprites\brickBuildingOne</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
