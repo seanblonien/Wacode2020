@@ -5,7 +5,10 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\grassBase</sprite>
+    <sprite>sprites\bearBase</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <help>
