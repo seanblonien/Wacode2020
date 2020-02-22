@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var xLeft; //Will contain the x-position of the left of the view
+            <string>//var xLeft; //Will contain the x-position of the left of the view
 var yTop; //Will contain the y-position of the top of the view
 </string>
           </argument>
@@ -50,12 +50,12 @@ var yTop; //Will contain the y-position of the top of the view
           <argument>
             <kind>1</kind>
             <string>//Replace obj_player with the name of your player object
-xLeft = Player.x - (view_wview/2);
+//xLeft = Player.x - (view_wview/2);
 yTop = Player.y - (view_hview/2);
 //This determines the x/y co-ords of the view so that the player will be in the centre
 
 //Finally, set the view position
-view_xview = xLeft;
+//view_xview = xLeft;
 view_yview = yTop;
 </string>
           </argument>
