@@ -40,7 +40,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Cam0</object>
-    <object>objects\Trash</object>
+    <object>objects\obj_trash</object>
     <object>objects\Player</object>
     <object>objects\oWater1</object>
     <object>objects\oStreet1</object>
