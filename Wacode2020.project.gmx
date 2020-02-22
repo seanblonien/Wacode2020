@@ -18,6 +18,8 @@
       <sprite>sprites\spr_button_quit</sprite>
     </sprites>
     <sprite>sprites\spr_car_slow_PH</sprite>
+    <sprite>sprites\sIntroText</sprite>
+    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -40,10 +42,14 @@
     </objects>
     <object>objects\game_manager</object>
     <object>objects\obj_car_slow</object>
+    <object>objects\oText1</object>
+    <object>objects\oIntroText</object>
+    <object>objects\oTutorialButt</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Tutorial</room>
     <room>rooms\MainMenu</room>
+    <room>rooms\textRoom</room>
+    <room>rooms\Tutorial</room>
     <room>rooms\Level3</room>
   </rooms>
   <help>
