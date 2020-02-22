@@ -17,9 +17,13 @@
       <sprite>sprites\spr_button_start</sprite>
       <sprite>sprites\spr_button_quit</sprite>
     </sprites>
+    <sprite>sprites\spr_car_slow_PH</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\Cam0</object>
     <object>objects\Trash</object>
@@ -35,11 +39,12 @@
       <object>objects\obj_button_quit</object>
     </objects>
     <object>objects\game_manager</object>
+    <object>objects\obj_car_slow</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\MainMenu</room>
     <room>rooms\Tutorial</room>
-    <room>rooms\Level1</room>
+    <room>rooms\MainMenu</room>
+    <room>rooms\Level3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
