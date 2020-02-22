@@ -11,6 +11,11 @@
     <sprite>sprites\fastCar</sprite>
     <sprite>sprites\truck</sprite>
     <sprite>sprites\trailerTruck</sprite>
+    <sprite>sprites\treeOne</sprite>
+    <sprite>sprites\treeTwo</sprite>
+    <sprite>sprites\bushOne</sprite>
+    <sprite>sprites\logOne</sprite>
+    <sprite>sprites\twigBundle</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
