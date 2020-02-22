@@ -8,6 +8,10 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Player</object>
+    <object>objects\Trash</object>
+  </objects>
   <help>
     <rtf>help.rtf</rtf>
   </help>
