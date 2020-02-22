@@ -5,13 +5,24 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sGrass1</sprite>
+    <sprite>sprites\sStreet1</sprite>
+    <sprite>sprites\sWater</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\oGrass1</object>
+    <object>objects\oStreet1</object>
+    <object>objects\oWater1</object>
     <object>objects\Player</object>
     <object>objects\Trash</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
+
   <help>
     <rtf>help.rtf</rtf>
   </help>
