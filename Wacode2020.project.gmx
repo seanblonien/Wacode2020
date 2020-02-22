@@ -16,6 +16,10 @@
     <sprite>sprites\bushOne</sprite>
     <sprite>sprites\logOne</sprite>
     <sprite>sprites\twigBundle</sprite>
+    <sprite>sprites\trash</sprite>
+    <sprite>sprites\trashSoda</sprite>
+    <sprite>sprites\trashAppleCore</sprite>
+    <sprite>sprites\trashFishBones</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
