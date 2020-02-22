@@ -35,9 +35,17 @@
       <sprite>sprites\spr_button_start</sprite>
       <sprite>sprites\spr_button_quit</sprite>
     </sprites>
+    <sprite>sprites\spr_car_slow_PH</sprite>
+    <sprite>sprites\sIntroText</sprite>
+    <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\MissingTexture</sprite>
+    <sprite>sprites\Wall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\Cam0</object>
     <object>objects\obj_trash</object>
@@ -53,12 +61,20 @@
       <object>objects\obj_button_quit</object>
     </objects>
     <object>objects\game_manager</object>
+    <object>objects\obj_car_slow</object>
+    <object>objects\oText1</object>
+    <object>objects\oIntroText</object>
+    <object>objects\oTutorialButt</object>
+    <object>objects\Room_Forward</object>
+    <object>objects\Room_Back</object>
+    <object>objects\oWall</object>
     <object>objects\treeoneish</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
+    <room>rooms\textRoom</room>
     <room>rooms\Tutorial</room>
-    <room>rooms\Level1</room>
+    <room>rooms\Level3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
