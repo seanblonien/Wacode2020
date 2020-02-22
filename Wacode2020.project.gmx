@@ -22,8 +22,8 @@
     <object>objects\obj_car</object>
   </objects>  
   <rooms name="rooms">
-    <room>rooms\rm_test01</room>
-    <room>rooms\room0</room>
+    <room>rooms\Tutorial</room>
+    <room>rooms\Level1</room>
   </rooms>
  
   <help>
