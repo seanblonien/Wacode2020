@@ -18,7 +18,8 @@
     <object>objects\oWater1</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\Tutorial</room>
+    <room>rooms\Level1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
