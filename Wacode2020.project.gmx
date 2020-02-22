@@ -8,6 +8,9 @@
   <sprites name="sprites">
     <sprite>sprites\grassBase</sprite>
     <sprite>sprites\bearBase</sprite>
+    <sprite>sprites\fastCar</sprite>
+    <sprite>sprites\truck</sprite>
+    <sprite>sprites\trailerTruck</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
