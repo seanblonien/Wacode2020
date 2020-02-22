@@ -9,15 +9,27 @@
     <sprite>sprites\sGrass1</sprite>
     <sprite>sprites\sStreet1</sprite>
     <sprite>sprites\sWater</sprite>
+    <sprites name="MainMenu">
+      <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_button_start</sprite>
+      <sprite>sprites\spr_button_quit</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\oGrass1</object>
     <object>objects\oStreet1</object>
     <object>objects\oWater1</object>
+    <objects name="MainMenu">
+      <object>objects\obj_title</object>
+      <object>objects\obj_button_start</object>
+      <object>objects\obj_button_quit</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\MainMenu</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Level1</room>
   </rooms>
