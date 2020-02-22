@@ -25,11 +25,68 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>custom_speed = 5;
+            <string>const_speed = 5;
+hspeed = const_speed;
+old_speed = 0;
+
+slowed = false;
 
 depth = -3;
 
 alarm_set(0, 90);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// Reset the other object's slow status
+if(other.slowed){
+    other.slowed = false;
+    other.hspeed = other.old_speed;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>self.hspeed = self.old_speed;
+self.slowed = false;
+
+
 </string>
           </argument>
         </arguments>
@@ -52,7 +109,7 @@ alarm_set(0, 90);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = custom_speed;
+            <string>hspeed = speed;
 </string>
           </argument>
         </arguments>
@@ -75,14 +132,20 @@ alarm_set(0, 90);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_message("This is faster");
-if(custom_speed &gt;= 1){
-    custom_speed = obj_car.custom_speed - 1;
-    hspeed = custom_speed;
+            <string>alarm_set(1, 30);
+
+alarm_set(2, 3);
+
+
+// If not slowed, slow down
+if(self.hspeed &gt;= other.hspeed &amp;&amp; !self.slowed &amp;&amp; !other.slowed){
+    self.old_speed = self.hspeed;
+    self.slowed = true;
+    if(self.hspeed &gt;= 0){
+        self.hspeed = other.hspeed;
+    }
+    
 }
-
-
-       
 
 </string>
           </argument>
@@ -103,6 +166,26 @@ if(custom_speed &gt;= 1){
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string></string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>

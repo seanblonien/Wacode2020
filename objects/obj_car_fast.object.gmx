@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>event_inherited();
 
-custom_speed = custom_speed * 3;
+speed = const_speed * 3;
 
 
 </string>

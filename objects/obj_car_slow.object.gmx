@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>event_inherited();
 
-custom_speed = 2.5;
+speed = const_speed * 0.35;
 </string>
           </argument>
         </arguments>
