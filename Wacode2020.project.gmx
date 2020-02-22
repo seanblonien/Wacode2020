@@ -20,6 +20,8 @@
     <sprite>sprites\spr_car_slow_PH</sprite>
     <sprite>sprites\sIntroText</sprite>
     <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\MissingTexture</sprite>
+    <sprite>sprites\Wall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -45,6 +47,9 @@
     <object>objects\oText1</object>
     <object>objects\oIntroText</object>
     <object>objects\oTutorialButt</object>
+    <object>objects\Room_Forward</object>
+    <object>objects\Room_Back</object>
+    <object>objects\oWall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
