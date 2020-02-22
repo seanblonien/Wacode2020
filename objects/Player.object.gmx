@@ -32,7 +32,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="Trash">
+    <event eventtype="4" ename="Cam0">
       <action>
         <libid>1</libid>
         <id>603</id>
