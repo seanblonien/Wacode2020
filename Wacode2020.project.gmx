@@ -53,6 +53,7 @@
       <object>objects\obj_button_quit</object>
     </objects>
     <object>objects\game_manager</object>
+    <object>objects\treeoneish</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
