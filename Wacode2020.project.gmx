@@ -18,6 +18,7 @@
     <object>objects\oWater1</object>
     <object>objects\Player</object>
     <object>objects\Trash</object>
+    <object>objects\Cam0</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
