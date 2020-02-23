@@ -68,13 +68,14 @@
     <object>objects\Room_Forward</object>
     <object>objects\Room_Back</object>
     <object>objects\oWall</object>
+    <object>objects\oRoadWall</object>
     <object>objects\treeoneish</object>
     <object>objects\obj_trash_soda</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Tutorial</room>
     <room>rooms\MainMenu</room>
     <room>rooms\textRoom</room>
+    <room>rooms\Tutorial</room>
     <room>rooms\Level3</room>
   </rooms>
   <help>
