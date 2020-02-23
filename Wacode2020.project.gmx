@@ -40,6 +40,9 @@
     <sprite>sprites\sprite10</sprite>
     <sprite>sprites\MissingTexture</sprite>
     <sprite>sprites\Wall</sprite>
+    <sprite>sprites\sBridgeLeft</sprite>
+    <sprite>sprites\sBridgeRight</sprite>
+    <sprite>sprites\sBridgeMid</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -70,6 +73,9 @@
     <object>objects\oWall</object>
     <object>objects\treeoneish</object>
     <object>objects\obj_trash_soda</object>
+    <object>objects\oBridgeL</object>
+    <object>objects\oBridgeR</object>
+    <object>objects\oBridgeM</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Tutorial</room>

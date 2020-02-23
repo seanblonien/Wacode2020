@@ -54,6 +54,38 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_car">
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="oWater1">
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
     <event eventtype="4" ename="Cam0">
       <action>
         <libid>1</libid>
@@ -98,7 +130,8 @@
             <string>if !place_meeting(x, y+10, oWall)
 {
     vspeed = 10;
-    }
+}
+image_angle = 180;
 </string>
           </argument>
         </arguments>
@@ -125,6 +158,7 @@
 {
     hspeed = 10;
 }
+image_angle = 270;
 </string>
           </argument>
         </arguments>
@@ -151,6 +185,7 @@
 {
     vspeed = -7.5;
 }
+image_angle = 0;
 </string>
           </argument>
         </arguments>
@@ -177,6 +212,7 @@
 {
     hspeed = -7.5;
 }
+image_angle = 90;
 </string>
           </argument>
         </arguments>
