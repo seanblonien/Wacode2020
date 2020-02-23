@@ -40,6 +40,9 @@
     <sprite>sprites\sprite10</sprite>
     <sprite>sprites\MissingTexture</sprite>
     <sprite>sprites\Wall</sprite>
+    <sprite>sprites\sBridgeLeft</sprite>
+    <sprite>sprites\sBridgeRight</sprite>
+    <sprite>sprites\sBridgeMid</sprite>
     <sprite>sprites\sprite32</sprite>
     <sprite>sprites\sPointsBkgd</sprite>
   </sprites>
@@ -76,6 +79,9 @@
     <object>objects\oRoadWall</object>
     <object>objects\treeoneish</object>
     <object>objects\obj_trash_soda</object>
+    <object>objects\oBridgeL</object>
+    <object>objects\oBridgeR</object>
+    <object>objects\oBridgeM</object>
     <object>objects\oVRLogo</object>
     <object>objects\obj_points_gui</object>
   </objects>

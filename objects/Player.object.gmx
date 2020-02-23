@@ -3,7 +3,7 @@
   <spriteName>bearBase</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-1</depth>
+  <depth>-2</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -55,7 +55,39 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="87">
+    <event eventtype="4" ename="obj_car">
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="oWater1">
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="4" ename="Cam0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -86,6 +118,33 @@ image_angle = 0;
         </arguments>
       </action>
     </event>
+    <event eventtype="9" enumb="87">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if !place_meeting(x, y-10, oWall)
+{
+    vspeed = -7.5;
+}
+image_angle = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="83">
       <action>
         <libid>1</libid>
@@ -105,13 +164,7 @@ image_angle = 0;
             <kind>1</kind>
             <string>if !place_meeting(x, y+10, oWall)
 {
-    vspeed = 7.5;
-} else if !place_meeting(x, y+10, oRoadWall)
-{
-    vspeed = 7.5;
-}else
-{
-    hspeed = 0;
+    vspeed = 10;
 }
 image_angle = 180;
 </string>
@@ -138,17 +191,10 @@ image_angle = 180;
             <kind>1</kind>
             <string>if !place_meeting(x + 10, y, oWall)
 {
-    hspeed = 7.5;
-}
-else if !place_meeting(x + 10, y, oRoadWall)
-{
-    hspeed = 7.5;
-}
-else
-{
-    hspeed = 0;
+    hspeed = 10;
 }
 image_angle = 270;
+
 </string>
           </argument>
         </arguments>
@@ -175,14 +221,6 @@ image_angle = 270;
 {
     hspeed = -7.5;
 }
-else if !place_meeting(x - 10, y, oRoadWall)
-{
-    hspeed = -7.5;
-}
-else
-{
-    hspeed = 0;
-}
 image_angle = 90;
 </string>
           </argument>
@@ -208,14 +246,7 @@ image_angle = 90;
             <kind>1</kind>
             <string>if !place_meeting(x, y+10, oWall)
 {
-    vspeed = 7.5;
-} else if !place_meeting(x, y+10, oRoadWall)
-{
-    vspeed = 7.5;
-}
-else
-{
-    vspeed = 0;
+    vspeed = 10;
 }
 image_angle = 180;
 </string>
@@ -280,10 +311,6 @@ image_angle = 270;
 {
     vspeed = -7.5;
 }
-else
-{
-    vspeed = 0;
-}
 image_angle = 0;
 </string>
           </argument>
@@ -313,10 +340,6 @@ image_angle = 0;
 } else if !place_meeting(x - 10, y, oRoadWall)
 {
     hspeed = -7.5;
-}
-else
-{
-    hspeed = 0;
 }
 image_angle = 90;
 </string>
