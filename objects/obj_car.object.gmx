@@ -215,10 +215,7 @@ if(self.hspeed &gt;= other.hspeed &amp;&amp; !self.slowed &amp;&amp; !other.slow
             <kind>1</kind>
             <string>hspeed = speed;
 
-if(global.trashPoints &gt;= 0){
-    --global.trashPoints;
-}
-
+--global.trashPoints;
 </string>
           </argument>
         </arguments>
