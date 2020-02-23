@@ -78,10 +78,10 @@
     <object>objects\oBridgeM</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Level3</room>
     <room>rooms\Tutorial</room>
     <room>rooms\MainMenu</room>
     <room>rooms\textRoom</room>
-    <room>rooms\Level3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
