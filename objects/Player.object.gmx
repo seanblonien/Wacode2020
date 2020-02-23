@@ -55,6 +55,140 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="9" enumb="87">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if !place_meeting(x, y-10, oWall)
+{
+    vspeed = -7.5;
+}
+if !place_meeting(x, y-10, oRoadWall)
+{
+    vspeed = -7.5;
+}
+image_angle = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="83">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if !place_meeting(x, y+10, oWall)
+{
+    vspeed = 7.5;
+} else if !place_meeting(x, y+10, oRoadWall)
+{
+    vspeed = 7.5;
+}else
+{
+    hspeed = 0;
+}
+image_angle = 180;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="68">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if !place_meeting(x + 10, y, oWall)
+{
+    hspeed = 7.5;
+}
+else if !place_meeting(x + 10, y, oRoadWall)
+{
+    hspeed = 7.5;
+}
+else
+{
+    hspeed = 0;
+}
+image_angle = 270;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="65">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if !place_meeting(x - 10, y, oWall)
+{
+    hspeed = -7.5;
+}
+else if !place_meeting(x - 10, y, oRoadWall)
+{
+    hspeed = -7.5;
+}
+else
+{
+    hspeed = 0;
+}
+image_angle = 90;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="40">
       <action>
         <libid>1</libid>
@@ -75,11 +209,15 @@
             <string>if !place_meeting(x, y+10, oWall)
 {
     vspeed = 7.5;
-}
-if !place_meeting(x, y+10, oRoadWall)
+} else if !place_meeting(x, y+10, oRoadWall)
 {
     vspeed = 7.5;
 }
+else
+{
+    vspeed = 0;
+}
+image_angle = 180;
 </string>
           </argument>
         </arguments>
@@ -105,11 +243,14 @@ if !place_meeting(x, y+10, oRoadWall)
             <string>if !place_meeting(x + 10, y, oWall)
 {
     hspeed = 7.5;
-}
-if !place_meeting(x - 10, y, oRoadWall)
+} else if !place_meeting(x + 10, y, oRoadWall)
 {
-    hspeed = -7.5;
+    hspeed = 7.5;
+} else
+{
+    hspeed = 0;
 }
+image_angle = 270;
 </string>
           </argument>
         </arguments>
@@ -135,11 +276,15 @@ if !place_meeting(x - 10, y, oRoadWall)
             <string>if !place_meeting(x, y-10, oWall)
 {
     vspeed = -7.5;
-}
-if !place_meeting(x, y-10, oRoadWall)
+} else if !place_meeting(x, y-10, oRoadWall)
 {
     vspeed = -7.5;
 }
+else
+{
+    vspeed = 0;
+}
+image_angle = 0;
 </string>
           </argument>
         </arguments>
@@ -165,11 +310,107 @@ if !place_meeting(x, y-10, oRoadWall)
             <string>if !place_meeting(x - 10, y, oWall)
 {
     hspeed = -7.5;
-}
-if !place_meeting(x - 10, y, oRoadWall)
+} else if !place_meeting(x - 10, y, oRoadWall)
 {
     hspeed = -7.5;
 }
+else
+{
+    hspeed = 0;
+}
+image_angle = 90;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="87">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>vspeed = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="83">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>vspeed = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="68">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hspeed = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="65">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hspeed = 0;
 </string>
           </argument>
         </arguments>
