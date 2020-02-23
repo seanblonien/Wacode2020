@@ -55,6 +55,8 @@
     <instance objName="obj_button_start" x="640" y="384" name="inst_A6C9FCD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button_quit" x="640" y="544" name="inst_B9DA81E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="game_manager" x="640" y="256" name="inst_DD372B58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oVRLogo" x="864" y="256" name="inst_0982D944" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_points_gui" x="0" y="0" name="inst_45EFFCD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sound_BGM" x="0" y="672" name="inst_3F01B767" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
