@@ -917,6 +917,8 @@
     <instance objName="oWall" x="1280" y="704" name="inst_BE25DB25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="1280" y="704" name="inst_1376C2F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWall" x="1280" y="768" name="inst_853FE79E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trash_can" x="704" y="640" name="inst_5BFA8468" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_trash_fishbone" x="384" y="1280" name="inst_BBFF23FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
