@@ -6,6 +6,24 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\grassBase</sprite>
+    <sprite>sprites\bearBase</sprite>
+    <sprite>sprites\fastCar</sprite>
+    <sprite>sprites\truck</sprite>
+    <sprite>sprites\trailerTruck</sprite>
+    <sprite>sprites\treeOne</sprite>
+    <sprite>sprites\treeTwo</sprite>
+    <sprite>sprites\bushOne</sprite>
+    <sprite>sprites\logOne</sprite>
+    <sprite>sprites\twigBundle</sprite>
+    <sprite>sprites\trash</sprite>
+    <sprite>sprites\trashSoda</sprite>
+    <sprite>sprites\trashAppleCore</sprite>
+    <sprite>sprites\trashFishBones</sprite>
+    <sprite>sprites\edgeCP</sprite>
+    <sprite>sprites\road</sprite>
+    <sprite>sprites\sideRoad</sprite>
+    <sprite>sprites\brickBuildingOne</sprite>
     <sprite>sprites\sGrass1</sprite>
     <sprite>sprites\sStreet1</sprite>
     <sprite>sprites\sWater</sprite>
@@ -30,7 +48,7 @@
   </scripts>
   <objects name="objects">
     <object>objects\Cam0</object>
-    <object>objects\Trash</object>
+    <object>objects\obj_trash</object>
     <object>objects\Player</object>
     <object>objects\oWater1</object>
     <object>objects\oStreet1</object>
@@ -50,6 +68,7 @@
     <object>objects\Room_Forward</object>
     <object>objects\Room_Back</object>
     <object>objects\oWall</object>
+    <object>objects\treeoneish</object>
     <object>objects\obj_trash_soda</object>
   </objects>
   <rooms name="rooms">

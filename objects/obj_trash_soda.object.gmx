@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>Trash</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="4" ename="Player">
@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>event_inherited();
 
-with(other){trashPoints += 5};
+with(other){global.trashPoints += 5};
 
 </string>
           </argument>
