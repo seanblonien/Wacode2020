@@ -84,6 +84,8 @@
     <object>objects\obj_sound_MainTheme</object>
     <object>objects\oVRLogo</object>
     <object>objects\obj_points_gui</object>
+    <object>objects\obj_trash_can</object>
+    <object>objects\obj_trash_fishbone</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
