@@ -41,12 +41,16 @@
     <sprite>sprites\MissingTexture</sprite>
     <sprite>sprites\Wall</sprite>
     <sprite>sprites\sprite32</sprite>
+    <sprite>sprites\sPointsBkgd</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\pixel</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Cam0</object>
     <object>objects\obj_trash</object>
@@ -73,11 +77,13 @@
     <object>objects\treeoneish</object>
     <object>objects\obj_trash_soda</object>
     <object>objects\oVRLogo</object>
+    <object>objects\obj_points_gui</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\textRoom</room>
     <room>rooms\Tutorial</room>
+    <room>rooms\Level3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
