@@ -40,6 +40,7 @@
     <sprite>sprites\sprite10</sprite>
     <sprite>sprites\MissingTexture</sprite>
     <sprite>sprites\Wall</sprite>
+    <sprite>sprites\sprite32</sprite>
     <sprite>sprites\sPointsBkgd</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -72,8 +73,10 @@
     <object>objects\Room_Forward</object>
     <object>objects\Room_Back</object>
     <object>objects\oWall</object>
+    <object>objects\oRoadWall</object>
     <object>objects\treeoneish</object>
     <object>objects\obj_trash_soda</object>
+    <object>objects\oVRLogo</object>
     <object>objects\obj_points_gui</object>
   </objects>
   <rooms name="rooms">
