@@ -24,6 +24,7 @@
     <sprite>sprites\road</sprite>
     <sprite>sprites\sideRoad</sprite>
     <sprite>sprites\brickBuildingOne</sprite>
+    <sprite>sprites\spr_bear_bb</sprite>
     <sprite>sprites\sGrass1</sprite>
     <sprite>sprites\sStreet1</sprite>
     <sprite>sprites\sWater</sprite>
@@ -84,6 +85,7 @@
     <object>objects\oBridgeM</object>
     <object>objects\oVRLogo</object>
     <object>objects\obj_points_gui</object>
+    <object>objects\bb</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
